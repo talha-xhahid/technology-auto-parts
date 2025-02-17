@@ -1,6 +1,6 @@
 
 .highlight {
-    color: #D81324;
+    color: #1378CA;
   }
 
 .roboticsproduct{
@@ -51,7 +51,7 @@ padding: 25px;
  
 
 .product-card:hover {
-    background: linear-gradient(45deg, #000000 40%, #D81324 100%);
+    background: linear-gradient(45deg, #000000 40%, #1378CA 100%);
   }
 
 @media (max-width: 768px) {

@@ -27,7 +27,7 @@
   
   /* Top Bar */
   .top-bar {
-    background: #D81324;
+    background: #1378CA;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -84,15 +84,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(33, 33, 33, 0.63); /* Semi-transparent background */
-    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.947); /* Semi-transparent background */
+    padding: 20px 20px;
     position: relative;
   
   }
   
   /* Logo */
   .navbar-logo img {
-    width: 120px;
+    width: 150px;
     cursor: pointer;
   }
   
@@ -111,7 +111,7 @@
   
   .navbar-menu ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     font-weight: 400;
     font-size: 14px;
     padding: 0.5rem 1rem;
@@ -121,18 +121,18 @@
   }
   
   .navbar-menu ul li a.active {
-    color: #D81324;
+    color: #1378CA;
     font-weight: 500;
   }
   
   .navbar-menu ul li a.active::after {
     content: '';
     position: absolute;
-    bottom: -24px; /* Adjust the distance of the line */
+    bottom: -1.8rem; /* Adjust the distance of the line */
     left: 0;
     width: 100%; /* Make the underline span the full width of the link */
     height: 4px; /* Line thickness */
-    background-color: #D81324; /* Line color */
+    background-color: #1378CA; /* Line color */
     transition: width 0.3s ease;
   }
   
@@ -154,7 +154,7 @@
   .hamburger div {
     width: 25px;
     height: 3px;
-    background: white;
+    background: #1378CA;
     transition: 0.3s;
   }
   
@@ -172,7 +172,9 @@
       padding: 10px 0;
     }
 
-
+    .navbar-menu ul li a {
+      color: white;
+    }
     .navbar-menu.open {
       display: flex;
     }
@@ -229,12 +231,12 @@
   }
   
   .footer-title .highlight {
-    color: #D81324;
+    color: #1378CA;
   }
   
   .order-now-btn {
     display: flex;
-    background-color: #D81324;
+    background-color: #1378CA;
     color: #fff;
     border: none;
     padding: 0.8rem 1.2rem;
@@ -256,7 +258,7 @@
   }
   
   .order-now-btn:hover {
-    background-color: #D81324;
+    background-color: #1378CA;
   }
   
   .footer-middle {
@@ -295,7 +297,7 @@
   }
   
   .footer-menu li:hover {
-    color: #D81324;
+    color: #1378CA;
   }
   
   .footer-left {
@@ -343,7 +345,7 @@
   }
   
   .subscribe-form button {
-    background-color: #D81324;
+    background-color: #1378CA;
     color: #ffffff;
     border: none;
     padding: 0.5rem 1rem;
@@ -355,7 +357,7 @@
   }
   
   .subscribe-form button:hover {
-    background-color: #D81324;
+    background-color: #1378CA;
   }
   
   .footer-bottom {
@@ -432,13 +434,13 @@
   
  .hollow-button{
   background-color: whitesmoke !important;
-  border: 1px solid #D81324 !important;
-  color: #D81324 !important;
+  border: 1px solid #1378CA !important;
+  color: #1378CA !important;
 }
  
 .hollow-button:hover{
-  background-color:  #D81324 !important;
-  border: 1px solid #D81324 !important;
+  background-color:  #1378CA !important;
+  border: 1px solid #1378CA !important;
   color: whitesmoke !important;
 }
 

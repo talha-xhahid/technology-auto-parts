@@ -90,7 +90,7 @@ body {
 }
 
 .faq-item.active {
-  background: linear-gradient(80deg, #000000 0%, #d81324 100%);
+  background: linear-gradient(80deg, #000000 0%, #1378CA 100%);
 }
 
 .faq-item.active, .faq-question:active{
@@ -153,7 +153,7 @@ body {
   }
 
   .cta-highlight{
-    color: #d81324;
+    color: #1378CA;
   }
   
   /* CTA Content Styling */
@@ -186,7 +186,7 @@ body {
   /* CTA Button */
   .cta-button {
         display: flex;
-        color: #d81324;
+        color: #1378CA;
         border: none;
         padding: 0.8rem 0.9rem;
         font-size: 0.8rem;

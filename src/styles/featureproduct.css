@@ -1,6 +1,6 @@
 
 .highlight {
-    color: #D81324;
+    color: #1378CA;
   }
 
 .featureproduct{
@@ -33,7 +33,7 @@ padding: 25px;
 }
 
 .featurecontact-button {
-  background: #D81324;
+  background: #1378CA;
   color: white;
   padding: 12px 18px;
   font-size: 14px;
@@ -85,7 +85,7 @@ padding: 25px;
   }
 
 .featureproduct-card:hover {
-    background: linear-gradient(45deg, #000000 40%, #D81324 100%);
+    background: linear-gradient(45deg, #000000 40%, #1378CA 100%);
     color: white;
   }
 

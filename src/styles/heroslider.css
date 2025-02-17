@@ -1,6 +1,6 @@
 .hero-slider {
     position: relative;
-    top: -5rem;
+    top: -6rem;
     z-index: 1;
     
   }
@@ -20,7 +20,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: bottom left;
+    object-position: top left;
   }
   
   .slide-content {
@@ -64,7 +64,7 @@
   }
   
   .custom-dot.active {
-    background-color: rgb(249, 42, 42);
+    background-color:#1378CA;
     font-size: 22px;
   }
   .slick-dots li {

@@ -123,7 +123,7 @@ const BecomePartner = () => {
           <div className="becomepartner-image"></div>
         </div>
         <div className="becomepartner-left">
-          <span className="highlight"> Texas Auto Parts</span>
+          <span className="highlight"> Technology Auto Parts</span>
           <h1 style={{ fontWeight: "bold", fontSize: "2.5rem", color: "white" }}>BECOME A PARTNER</h1>
           <p style={{ color: "white" }}>
             We would love to see how we can service your business. Click below to find out more about becoming a valued

@@ -1,13 +1,13 @@
 .becomepartner-container {
     display: flex;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     margin-bottom: 1rem;
     justify-content: space-between;
     
   }
 .becomepartner{
 
-background: linear-gradient(246.5deg, #000000 34.85%, #D81324 118.68%);
+background: linear-gradient(246.5deg, #000000 34.85%, #1378CA 118.68%);
 margin-bottom: 3rem;
 
 }
@@ -169,7 +169,7 @@ margin-bottom: 3rem;
   
   form button {
     width: 100%;
-    background: #D81324;
+    background: #1378CA;
     color: white;
     border: none;
     padding: 10px;

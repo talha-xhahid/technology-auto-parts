@@ -15,7 +15,7 @@
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: #D81324;
+    background: #1378CA;
     color: white;
     padding: 15px 30px;
     border-radius: 5px;
@@ -72,7 +72,7 @@
 
 .form-input:focus {
     outline: none;
-    border: 0.5px solid #D81324;
+    border: 0.5px solid #1378CA;
     background-color: #d8132314;
 }
 
@@ -90,13 +90,13 @@
 
 .form-textarea:focus {
     outline: none;
-    border: 0.5px solid #D81324;
+    border: 0.5px solid #1378CA;
     background-color: #d8132314;
 }
 
 /* Button Styling */
 .form-button {
-    background: #D81324;
+    background: #1378CA;
     color: rgb(255, 255, 255);
     padding: 10px 20px;
     border: none;

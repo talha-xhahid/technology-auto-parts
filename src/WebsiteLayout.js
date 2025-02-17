@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./styles/layout.css";
 import "./styles/animatedbtn.css";
 import logo from "./assets/logo.png";
+import logowhite from "./assets/logo-white.png";
 import facebook from "./assets/facebook.png";
 import instagram from "./assets/instagram.png";
 import linkedin from "./assets/linkedin.png";
@@ -11,7 +12,7 @@ import timeline from "./assets/timeline.png";
 import AnimatedButton from "./Components/AnimatedButton";
 import phone from "./assets/phone.png";
 import addressIcon from "./assets/addressIcon.png";
-import emailIcon from "./assets/emailIcon.png";
+import emailIcon from "./assets/EmailIcon.png";
 import postboxIcon from "./assets/postboxIcon.png";
 import facebookIcon from "./assets/facebookIcon.png";
 import instagramIcon from "./assets/instagramIcon.png";
@@ -42,7 +43,7 @@ const WebsiteLayout = ({ children }) => {
       <div className="top-bar" style={{zIndex:'5',position:'relative'}}>
         <div className="contact-info">
           <span>
-            <img src={call} alt="Phone" /> +1 281-302-6820
+            <img src={call} alt="Phone" /> +1 972-945-0006
           </span>
           <span className="opening-hrs">
             <img src={timeline} alt="Clock" /> Opening hours: 8am - 5pm
@@ -156,7 +157,7 @@ const WebsiteLayout = ({ children }) => {
             <a href="/">
             <img
 
-              src={logo}
+              src={logowhite}
               alt="Texas Auto Parts Logo"
               className="footer-logo"
             /></a>
@@ -207,20 +208,19 @@ const WebsiteLayout = ({ children }) => {
         <div className="footer-bottom">
           <div className="contact-info-footer">
             <p>
-              <img src={phone} alt="Phone" /> +1 281-302-6820
+              <img src={phone} alt="Phone" /> +1 972-945-0006
             </p>
             <p>
-              <img src={addressIcon} alt="Address" /> 12505 Reed Rd Suit 145
-              Sugar Land TX 77478
+              <img src={addressIcon} alt="Address" /> 3101 Technology Drive STE 101, Plano, TX 75074, United States
             </p>
             <p>
-              <img src={emailIcon} alt="Email" /> kash@txautoparts.net
+              <img src={emailIcon} alt="Email" /> mhadi@technologyautoparts.com
             </p>
             
           </div>
 
           <p className="footer-copyright">
-            © 2025 - Texas Auto Parts, All rights are reserved.
+            © 2025 - Technology Auto Parts, All rights are reserved.
           </p>
         </div>
       </footer>

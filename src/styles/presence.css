@@ -1,19 +1,24 @@
 .presence-container {
     display: flex;
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     justify-content: space-between;
     
   }
 .presence{
     padding: 3rem;
+    background-image: url('../assets/presence.png');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 4rem;
 }
   
   .presence-left {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
     
   }
   
@@ -24,9 +29,7 @@
   }
   .presence-image{
     min-height:  420px;
-    background-image: url('../assets/presence.png');
-    background-position: center;
-    background-size: contain;
+   
     margin-top: 1rem;
     border-radius: 10px;
     background-repeat: no-repeat;
@@ -40,19 +43,17 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
+    width: 100%;
   }
   /* Responsive for mobile */
   @media (max-width: 768px) {
-    .presence-address1{
-        display: none;
-    }
-    .presence-address2{
-        display: flex;
-    flex-direction: column;
-    gap: 20px;
-    }
+    
     .presence{
         padding: 1.5rem;
+        padding-bottom: 2rem;
+        text-align: center;
+        margin-top: 2rem;
     }
     .presence-container {
       flex-direction: column;

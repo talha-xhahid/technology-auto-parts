@@ -10,7 +10,7 @@ const Presence= () => {
     const navigate = useNavigate();
 
     return(<div className='presence' style={{}}> 
-    <h4 className="" style={{ color: "#000000", textAlign: "left" }}>
+    <h4 className="" style={{ color: "#000000", textAlign: "center" }}>
         Our | <span className="highlight">Presence</span> 
         </h4>
     <div className='presence-container'>
@@ -24,26 +24,18 @@ const Presence= () => {
               </button>
         <div className='presence-address1'>
         <p style={{fontWeight:'bold' , display:'flex' ,alignItems:'center' ,marginTop:'3.5rem'}}>
-              <img src={addressIcon}  style={{marginRight:'0.8rem'}} alt="Address" />   USA &nbsp; <span className="highlight"> Texas Auto Parts</span>
+              <img src={addressIcon}  style={{marginRight:'0.8rem'}} alt="Address" />   USA &nbsp; <span className="highlight"> Technology Auto Parts</span>
             </p>
-        <p style={{color:'grey',fontSize:'0.8rem'}}>12505 Reed Rd Suit 145 Sugar Land TX 77478</p>
-        <p><span style={{fontWeight:'bold'}}>Email us:</span> <u>kash@txautoparts.net</u></p>
+        <p style={{color:'grey',fontSize:'0.8rem'}}>3101 Technology Drive STE 101, Plano, TX 75074, United States</p>
+        <p><span style={{fontWeight:'bold'}}>Email us:</span> <u> mhadi@technologyautoparts.com</u></p>
         </div>
         </div>
-        <div className='presence-right'>
-        <div className='presence-image'></div>
-        </div>
+        
 
         
 
     </div>
-    <div className='presence-address2'>
-        <p style={{fontWeight:'bold' , display:'flex' ,alignItems:'center' ,marginTop:'0rem'}}>
-              <img src={addressIcon}  style={{marginRight:'0.8rem'}} alt="Address" />   USA &nbsp; <span className="highlight"> Texas Auto Parts</span>
-            </p>
-        <p style={{color:'grey',fontSize:'0.8rem'}}>12505 Reed Rd Suit 145 Sugar Land TX 77478</p>
-        <p><span style={{fontWeight:'bold'}}>Email us:</span> <u>kash@txautoparts.net</u></p>
-        </div>
+    
     
     
     </div>);

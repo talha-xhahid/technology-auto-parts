@@ -59,7 +59,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(to top right, #D81324, transparent);
+        background: linear-gradient(to top right, #1378CA, transparent);
         pointer-events: none; /* Ensures clicks pass through */
     }
 
