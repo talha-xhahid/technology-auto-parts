@@ -13,7 +13,7 @@ import timeline from "./assets/timeline.png";
 import AnimatedButton from "./Components/AnimatedButton";
 import phone from "./assets/phone.png";
 import addressIcon from "./assets/addressIcon.png";
-import emailIcon from "./assets/EmailIcon.png";
+import emailIcon from "./assets/emailIcon.png";
 import postboxIcon from "./assets/postboxIcon.png";
 import facebookIcon from "./assets/facebookIcon.png";
 import instagramIcon from "./assets/instagramIcon.png";
