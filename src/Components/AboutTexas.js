@@ -17,7 +17,7 @@ const AboutTexas = () => {
         About | <span className="highlight">Technology Auto Parts</span> 
         </h4>
          <h1>Your Reliable Partner for Domestic & Foreign Auto Parts</h1>
-         <p>At Technology Auto Parts, we specialize in providing top-quality under-the-hood components for repair shops and mobile mechanics across Texas. With a commitment to excellence, we offer a wide range of electrical, suspension, cooling parts, and automotive lubricants tailored to meet the demands of professionals.</p>
+         <p>At Technology Auto Parts, we specialize in providing top-quality under-the-hood components for repair shops and mobile mechanics across USA. With a commitment to excellence, we offer a wide range of electrical, suspension, cooling parts, and automotive lubricants tailored to meet the demands of professionals.</p>
          <button className="contact-button" style={{width:'140px' ,height:'45px'}}  onClick={() => navigate('/AboutUs')}>
                 Learn More
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>

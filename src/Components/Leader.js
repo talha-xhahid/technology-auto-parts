@@ -51,18 +51,12 @@ const MeetLeader = () => {
             ></img>
           </div>
           <div className="meetleader-box2" style={{ position: "relative" }}>
-            <h2 style={{color:"white"}}>Syed Kashif</h2>
+            <h2 style={{color:"white"}}>Muhammad Hadi Saeed</h2>
             <p style={{ fontSize: "1rem", color: "white" }}>
               Managing Director
             </p>
             <p style={{ color: "white" }}>
-              With over 10 years of experience in the automotive industry, Syed
-              Kashif founded Texas Auto Parts with a clear vision: to provide
-              reliable, high-quality parts to repair shops and mobile mechanics
-              across Texas. Syed Kashif believes in fostering strong
-              relationships with clients and prioritizing their needs. His
-              hands-on approach and deep understanding of the industry have made
-              Texas Auto Parts a trusted name for mechanics.
+            With over 05+ years of experience in the automotive industry,  Muhammad hadi Saeed founded Technology Auto Parts with a clear vision: to provide reliable, high-quality parts to repair shops and mobile mechanics across Texas. M.Hadi Saeed believes in fostering strong relationships with clients and prioritizing their needs. His hands-on approach and deep understanding of the industry have made Technology Auto Parts a trusted name for mechanics.
             </p>
             <h4 style={{color:"white"}}>Quote</h4>
             <p
@@ -73,8 +67,7 @@ const MeetLeader = () => {
                 fontWeight:"bold"
               }}
             >
-              “At Texas Auto Parts, we don’t just supply parts—we help keep your
-              business running smoothly and efficiently.”
+              “At Technology Auto Parts, we don’t just supply parts—we help keep your business running smoothly and efficiently.”
             </p>
   
           </div>

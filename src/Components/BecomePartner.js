@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import "../styles/becomepartner.css";
-import logo from "../assets/logo-black.png";
+import logo from "../assets/logo-white.png";
 import arrow from "../assets/arrow.png";
 import clip from "../assets/clip.png";
 const BecomePartner = () => {
@@ -89,7 +89,7 @@ const BecomePartner = () => {
     };
   
     emailjs
-      .send("service_t77o2lr", "template_nny10jm", emailParams, "lE9t-oN-4Dc4rs-B6")
+      .send("service_ryshpq9", "template_9h0mwle", emailParams, "Ax3Bp7GxuazG33dJ1")
       .then((response) => {
         setIsLoading(false);
         alert("Form submitted successfully!");
@@ -127,7 +127,7 @@ const BecomePartner = () => {
           <h1 style={{ fontWeight: "bold", fontSize: "2.5rem", color: "white" }}>BECOME A PARTNER</h1>
           <p style={{ color: "white" }}>
             We would love to see how we can service your business. Click below to find out more about becoming a valued
-            customer partner with Texas Auto Parts.
+            customer partner with Technology Auto Parts.
           </p>
           <button className="contact-button" style={{ width: "140px", height: "45px" }} onClick={toggleForm}>
             Learn More <img src={arrow} style={{ width: "15px", height: "15px" }} alt="arrow" />
@@ -141,8 +141,8 @@ const BecomePartner = () => {
             <span className="close" onClick={toggleForm}>
               &times;
             </span>
-            <img src={logo} alt="Texas Auto Parts" className="logo" />
-            <h3 style={{fontWeight:'700' , fontSize:'1rem',textAlign:'center'}}>New account Information Form To <span style={{color:'#D81324'}}>Become a Partner</span></h3>
+            <img src={logo} alt="Technology Auto Parts" className="logo" />
+            <h3 style={{fontWeight:'700' , fontSize:'1rem',textAlign:'center'}}>New account Information Form To <span style={{color:'#1378CA'}}>Become a Partner</span></h3>
             <form onSubmit={handleSubmit}>
               <input className="form-input" type="text" name="shopName" placeholder="Enter Shop Name" value={formData.shopName} onChange={handleChange} required />
               <input className="form-input" type="text" name="contactName" placeholder="Enter Contact Name" value={formData.contactName} onChange={handleChange} required />
@@ -207,8 +207,8 @@ const BecomePartner = () => {
               <button style={{borderRadius:'50px', display: 'flex', alignItems: 'center', justifyContent: 'center'}} type="submit">{isLoading ? <div className="spinner"></div> : "Submit"}</button>
             </form>
             <div style={{ marginTop:'0.5rem'}}>
-            <h5 style={{fontWeight:'700'  ,textAlign:'center'}}><span style={{color:'#D81324'}}>1. Purchasing options </span>(Sales Rep Use only)</h5>
-            <h5 style={{fontWeight:'700' ,textAlign:'center'}}><span style={{color:'#D81324'}}>2. Terms: </span>COD or Weekly (Sales Rep use only)</h5>
+            <h5 style={{fontWeight:'700'  ,textAlign:'center'}}><span style={{color:'#1378CA'}}>1. Purchasing options </span>(Sales Rep Use only)</h5>
+            <h5 style={{fontWeight:'700' ,textAlign:'center'}}><span style={{color:'#1378CA'}}>2. Terms: </span>COD or Weekly (Sales Rep use only)</h5>
             </div>
             
           </div>

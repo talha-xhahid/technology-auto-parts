@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import s1 from "../assets/contactus-slide.png";
+import s1 from "../assets/contactus-slide.jpg";
 import "../styles/heroslider.css";
 import arrow from "../assets/arrow.png";
 
@@ -36,7 +36,7 @@ const ContactUsHeroSlider = () => {
       <div className="slide contactus-slide" >
         <img src={s1} alt="Slide 1"  style={{objectPosition:'center'}}/>
         <div className="slide-content">
-          <h1 style={{fontWeight:'bolder'}}>Get in Touch with Texas Auto Parts</h1>
+          <h1 style={{fontWeight:'bolder'}}>Get in Touch with Technology Auto Parts</h1>
           <p>We’re here to help repair shops and mobile mechanics with all your part needs.</p>
           
             

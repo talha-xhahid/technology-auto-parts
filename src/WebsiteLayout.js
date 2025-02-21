@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./styles/layout.css";
+// import "./styles/journey.css";
 import "./styles/animatedbtn.css";
 import logo from "./assets/logo.png";
 import logowhite from "./assets/logo-white.png";
@@ -104,15 +105,7 @@ const WebsiteLayout = ({ children }) => {
                 Order Now
               </a>
             </li>
-            <li>
-              <a
-                href="/YourStatements"
-                className={activeLink === "/YourStatements" ? "active" : ""}
-                onClick={() => handleLinkClick("/YourStatements")}
-              >
-                View Your Statement and Invoices
-              </a>
-            </li>
+            
             <li className="hide-on-desktop">
               <a
                 href="/Contact"
@@ -167,7 +160,7 @@ const WebsiteLayout = ({ children }) => {
               <a href="/" style={{textDecoration:'none',color:'white'}}><li>HOME</li></a>
               <a href="/AboutUs" style={{textDecoration:'none',color:'white'}}><li >ABOUT US</li></a>
               <a href="/OrderNow" style={{textDecoration:'none',color:'white'}}><li>ORDER NOW</li></a>
-              <a href="/YourStatements" style={{textDecoration:'none',color:'white'}}><li>VIEW STATEMENT</li></a>
+              
               <a href="/Contact" style={{textDecoration:'none',color:'white'}}><li>CONTACT US</li></a>
             </ul>
           </div>

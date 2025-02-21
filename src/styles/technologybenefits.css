@@ -1,0 +1,120 @@
+.technologybenefits-container {
+    display: flex;
+    
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    
+  }
+.technologybenefits{
+    padding: 3rem;
+    padding-top: 0rem;
+    background-color: #1378ca13;
+}
+  
+  .technologybenefits-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    
+  }
+  
+  .technologybenefits-right {
+    width: 50%;
+    
+    
+  }
+  .technologybenefits-image{
+    min-height:  420px;
+    background-image: url('../assets/abouttexas-bg.png');
+    background-position: top right;
+    
+    background-size: 70% 70%;
+    
+    background-repeat: no-repeat;
+    padding: 2rem;
+  }
+  
+
+  .technologybenefits-row{
+    display: flex;
+    gap: 15px;
+  }
+  .technologybenefits-left{
+    width: 50%;
+  }
+  .technologybenefits-right{
+    width: 50%;
+  }
+  .technologyproduct-card-mobile{
+    display: none !important;
+  }
+
+  /* Responsive for mobile */
+  @media (max-width: 768px) {
+
+    .technologyproduct-card-mobile{
+        display: block !important;
+        margin-top: 0.5rem;
+      }
+      .technologyproduct-card-desktop{
+        display: none !important;
+      }
+    
+    .technologybenefits{
+        padding: 0rem;
+        padding-top: 2rem;
+        margin-top: -2rem;
+    }
+    .technologybenefits-container {
+      flex-direction: column;
+    }
+  
+    .technologybenefits-left, 
+    .technologybenefits-right {
+      width: 100%;
+    }
+    .technologybenefits-right {
+        display: block;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        
+        
+      }
+      .technologybenefits-image{
+        min-height:  320px;
+        background-image: url('../assets/darkarrows-reverse.png');
+        background-position: left;
+        background-size: contain;
+        padding: 0rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding: 1rem;
+       
+        background-repeat: repeat-y;
+      }
+      .technologybenefits-row{
+        flex-direction: column;
+      }
+      .technologycardheight{
+        height: 100px !important;
+      }
+      .technologybenefits-left h1{
+        text-align: center !important;
+      }
+      .technologybenefits-left{
+        
+       
+      }
+      .technologybenefits-left h4{
+        text-align: center !important;
+      }
+      .technologybenefits-left button{
+        margin: auto;
+      }
+      .technologybenefits-right .technologybenefits-row{
+        gap: 0px;
+      }
+  }
+  

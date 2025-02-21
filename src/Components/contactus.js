@@ -3,10 +3,10 @@ import emailjs from "emailjs-com";  // Import EmailJS
 import "../styles/contactus.css";
 import robot from "../assets/contactus.png";
 import addressIcon from "../assets/addressIcon.png";
-import facebookIcon from "../assets/icon1.png";
-import instagramIcon from "../assets/icon2.png";
-import linkedinIcon from "../assets/icon3.png";
-import twitterIcon from "../assets/icon4.png";
+import facebookIcon from "../assets/Icon1.png";
+import instagramIcon from "../assets/Icon2.png";
+import linkedinIcon from "../assets/Icon3.png";
+import twitterIcon from "../assets/Icon4.png";
 
 const ContactUsForm = () => {
     // State for form fields
@@ -38,12 +38,7 @@ const ContactUsForm = () => {
         }
 
         emailjs
-            .send(
-                "service_t77o2lr",  // Replace with EmailJS Service ID
-                "template_jfa0iik", // Replace with EmailJS Template ID
-                formData,
-                "lE9t-oN-4Dc4rs-B6"   // Replace with EmailJS Public Key
-            )
+        .send("service_ryshpq9", "template_w6ilqwl", formData, "Ax3Bp7GxuazG33dJ1")
             .then(
                 (response) => {
                     console.log("SUCCESS!", response.status, response.text);
@@ -65,7 +60,7 @@ const ContactUsForm = () => {
         <div className="contactus">
             <div className="row">
                 <div className="col-12 col-md-8">
-                    <h4 style={{ color: "#D81324", marginBottom: "1rem" }}>Contact Us</h4>
+                    <h4 style={{ color: "#1378CA", marginBottom: "1rem" }}>Contact Us</h4>
                     <h1>Send Us a Message</h1>
 
                     <div className="form-container mt-4">
@@ -151,29 +146,25 @@ const ContactUsForm = () => {
                     {/* Contact Information */}
                     <div className="row mt-5">
                         <div className="col-12 col-md-6">
-                            <div className="presence-address1">
+                            <div className="presence-address1" style={{alignItems:'start'}}>
                                 <p style={{ fontWeight: "bold", display: "flex", alignItems: "center", color: "black" }}>
                                     <img src={addressIcon} style={{ marginRight: "0.8rem" }} alt="Address" /> USA &nbsp;
-                                    <span className="highlight"> Texas Auto Parts</span>
+                                    <span className="highlight"> Technology Auto Parts</span>
                                 </p>
                                 <p style={{ color: "grey", fontSize: "0.8rem" }}>
-                                    12505 Reed Rd Suit 145 Sugar Land TX 77478
+                                83101 Technology Drive STE 101, Plano, TX 75074, United States
                                 </p>
-                                <p style={{ color: "black" }}>
-                                    <span style={{ fontWeight: "bold" }}>Email us:</span> <u>kash@txautoparts.net</u>
-                                </p>
+                                
                             </div>
                             <div className="presence-address2">
                                 <p style={{ fontWeight: "bold", display: "flex", alignItems: "center", color: "black" }}>
                                     <img src={addressIcon} style={{ marginRight: "0.8rem" }} alt="Address" /> USA &nbsp;
-                                    <span className="highlight"> Texas Auto Parts</span>
+                                    <span className="highlight"> Technology Auto Parts</span>
                                 </p>
                                 <p style={{ color: "grey", fontSize: "0.8rem" }}>
-                                    12505 Reed Rd Suit 145 Sugar Land TX 77478
+                                83101 Technology Drive STE 101, Plano, TX 75074, United States
                                 </p>
-                                <p style={{ color: "black" }}>
-                                    <span style={{ fontWeight: "bold" }}>Email us:</span> <u>kash@txautoparts.net</u>
-                                </p>
+                                
                             </div>
                         </div>
 
@@ -199,6 +190,9 @@ const ContactUsForm = () => {
                             </div>
                         </div>
                     </div>
+                    <p style={{ color: "black" ,marginTop:'10px'}}>
+                                    <span style={{ fontWeight: "bold" }}>Email us:</span> <u>mhadi@technologyautoparts.com</u>
+                                </p>
                 </div>
 
                 {/* Right Side Image */}

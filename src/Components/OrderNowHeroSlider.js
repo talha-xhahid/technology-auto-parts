@@ -44,24 +44,11 @@ const OrderNowHeroSlider = () => {
               style={{ height: "45px" }}
               onClick={() => window.open("https://nexpart.com/login.php", "_blank")}
             >
-              Order From NexPart
+              Log in to Order Now
               <img src={arrow} style={{ width: "15px", height: "15px" }} alt="arrow" />
             </button>
 
-            <button
-              className="contact-button hollow-button"
-              style={{ height: "45px" }}
-              onClick={() => window.open("https://partstech.com/", "_blank")}
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
-            >
-              Order From PartsTech
-              <img
-                src={isHovered ? arrow : redarrow}
-                style={{ width: "16px", height: "16px" }}
-                alt="arrow"
-              />
-            </button>
+            
           </div>
         </div>
       </div>

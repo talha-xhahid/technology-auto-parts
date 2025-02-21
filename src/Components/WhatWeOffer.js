@@ -72,7 +72,7 @@ const WhatWeOffer = () => {
     >
       <div className="featureproduct-inner pt-4">
       <h4 className="mx-3" style={{ color: "#000000", textAlign: "center" }}>
-        <span className="highlight">Texas Auto Parts</span> 
+        <span className="highlight">Technology Auto Parts</span> 
         </h4>
      
 

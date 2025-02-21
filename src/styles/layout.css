@@ -280,7 +280,9 @@
   .menu-section {
     margin-top: 1rem;
   }
-  
+  .hide-on-desktop{
+    display: none;
+  }
   .footer-menu {
     list-style: none;
     display: flex;
@@ -445,6 +447,9 @@
 }
 
   @media (max-width: 768px) {
+    .hide-on-desktop{
+      display: block;
+    }
     .footer-top {
       flex-direction: column;
       text-align: left; /* Align text to left */

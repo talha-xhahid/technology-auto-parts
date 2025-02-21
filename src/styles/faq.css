@@ -8,10 +8,10 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-image: url("../assets/lightarrows.png");
+  /* background-image: url("../assets/lightarrows.png");
   background-position: top right;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   margin-top: 4rem;
   margin-bottom: 2rem;
   
@@ -129,7 +129,7 @@ body {
     padding: 40px 20px; /* Add padding for spacing */
     text-align: center; /* Center text */
     position: relative;
-    background: url("../assets/ctq-img.png") center/cover no-repeat; /* Background image */
+    background: url("../assets/faqs-img.png") center/cover no-repeat; /* Background image */
     color: white; /* Text color */
     display: flex;
     flex-direction: column;

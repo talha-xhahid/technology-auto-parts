@@ -3,9 +3,8 @@ import WebsiteLayout from './WebsiteLayout';
 import AboutUsHeroSlider from './Components/AboutUsHeroSlider';
 import WhyChooseUs from './Components/WhyChooseUs';
 import WhatWeOffer from './Components/WhatWeOffer';
-import Partner from './Components/Partner';
-import Journey from './Components/Journey';
-import AboutUsMission from './Components/AboutUsMission';
+import BecomePartner from './Components/BecomePartner';
+import AboutTexas from './Components/AboutTexas';
 import MeetLeader from './Components/Leader';
 
 
@@ -15,12 +14,11 @@ const AboutUs = () => {
     return(<>
     <WebsiteLayout>
     <AboutUsHeroSlider/>
-    <AboutUsMission/>
-    <Journey/>
+    <AboutTexas/>
     <WhyChooseUs/>
     <MeetLeader/>
     <WhatWeOffer/>
-    <Partner/>
+    <BecomePartner/>
     </WebsiteLayout>
     </>);
 

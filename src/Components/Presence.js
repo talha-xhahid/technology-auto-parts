@@ -17,7 +17,7 @@ const Presence= () => {
         <div className='presence-left'>
          <h1 style={{fontWeight:'bold' , fontSize:'2.5rem'}}>Serving Repair Shops &
          Mobile Mechanics</h1>
-         <p>With a strong network and reliable delivery, Texas Auto Parts is the trusted supplier for auto professionals throughout the state.</p>
+         <p>With a strong network and reliable delivery, Technology Auto Parts is the trusted supplier for auto professionals throughout the state.</p>
          <button className="contact-button" style={{width:'140px' ,height:'45px'}} onClick={() => navigate('/AboutUs')}>
                 Learn More
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>

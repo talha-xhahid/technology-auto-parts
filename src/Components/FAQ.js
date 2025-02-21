@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../../src/styles/faq.css";
 import plus from "../assets/plusIcon.png";
 import { useLocation } from "react-router-dom";
-import arrow from "../assets/redArrow.png";
+import arrow from "../assets/arrow-blue.png";
 import whiteplus from '../assets/whiteplus.png'
 import { useNavigate } from 'react-router-dom';
 
@@ -11,16 +11,16 @@ const FAQ = () => {
   const navigate = useNavigate();
   
   const [selectedQuestion, setSelectedQuestion] = useState(
-    "Who Can Order From Texas Auto Parts?"
+    "Who Can Order From Technology Auto Parts?"
   );
   const value = location.pathname === "/Robotics-AboutUs";
 
   // Questions and answers data
   const faqData = [
     {
-      question: "Who Can Order From Texas Auto Parts?",
+      question: "Who Can Order From Technology Auto Parts?",
       answer:
-        "Any individual or business can order from Texas Auto Parts. We offer nationwide shipping and bulk discounts for large orders.",
+        "Any individual or business can order from Technology Auto Parts. We offer nationwide shipping and bulk discounts for large orders.",
     },
     {
       question: "How Do I Access My Account?",
@@ -47,7 +47,7 @@ const FAQ = () => {
         </h2>
         <p className="faq-subtext">
           Find quick answers to common questions about our platform, including
-          how to use Texas Auto Parts.
+          how to use Technology Auto Parts.
         </p>
       </div>
 

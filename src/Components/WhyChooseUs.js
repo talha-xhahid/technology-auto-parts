@@ -75,7 +75,7 @@ const WhyChooseUs = () => {
     >
       <div className="roboticsproduct-inner pt-4">
         <h4 className="mx-3" style={{ color: "#000000", textAlign: "center" }}>
-        Why Choose | <span className="highlight">Texas Auto Parts</span> 
+        Why Choose | <span className="highlight">Technology Auto Parts</span> 
         </h4>
      
 

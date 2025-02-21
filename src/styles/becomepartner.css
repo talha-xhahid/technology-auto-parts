@@ -136,7 +136,7 @@ margin-bottom: 3rem;
     padding-left: 3rem;
     padding-right: 3rem;
     position: relative;
-    background-image: url(../assets/lightarrows.png);
+    background-image: url(../assets/benefits-arrow.png);
     background-size: cover;
     background-position: top;
     
@@ -154,7 +154,7 @@ margin-bottom: 3rem;
   .logo {
     display: block;
     margin: 0 auto 15px;
-    width: 120px;
+    width: 150px;
   }
   
   form input, form select {

@@ -73,7 +73,7 @@
 .form-input:focus {
     outline: none;
     border: 0.5px solid #1378CA;
-    background-color: #d8132314;
+    background-color: #F3F8FC;
 }
 
 /* Textarea Styling */
@@ -91,19 +91,20 @@
 .form-textarea:focus {
     outline: none;
     border: 0.5px solid #1378CA;
-    background-color: #d8132314;
+    background-color: #F3F8FC;
 }
 
 /* Button Styling */
 .form-button {
     background: #1378CA;
     color: rgb(255, 255, 255);
-    padding: 10px 20px;
+    padding: 15px 20px;
     border: none;
     border-radius: 25px;
     font-size: 16px;
     cursor: pointer;
     font-weight: 500;
+    width: 120px;
 }
 
 .form-button:hover {
@@ -116,13 +117,11 @@
 }
 
 .contactus-bg{
-    background-image: url(../assets/benefits-arrows.png);
+    background-image: url(../assets/benefits-arrow.png);
     background-size: contain;
 }
 .location{
-    background-image: url(../assets/location-arrows.png);
-    background-position: left;
-    background-size: cover;
+    background-color: #F3F8FC;
 }
 
 /* Responsive Adjustments */

@@ -8,12 +8,16 @@
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: #1378ca13;
+    
 }
 .featureproduct-inner{
     height: 100%;
     width: 100%;
-    background-position: top right;
-    background-size: contain;
+    background-image: url(../assets/abouttexas-bg.png);
+    background-size: 20% ;
+    background-position: bottom right;
+    
     background-repeat: no-repeat;
     padding: 30px;
     
@@ -128,8 +132,15 @@ padding: 25px;
     }
 
     .featureproduct-inner{
-        padding:5px;
+        padding:30px 5px;
     }
-    
+    .featureproduct-inner{
+      
+      
+      background-size: 40% ;
+      
+      
+      
+  }
 
 }
