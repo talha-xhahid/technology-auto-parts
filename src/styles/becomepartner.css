@@ -17,7 +17,7 @@ margin-bottom: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem;
+    padding: 3rem;
     gap: 20px;
     background-image: url('../assets/darkarrows.png');
     background-position: center;
@@ -32,7 +32,7 @@ margin-bottom: 3rem;
     
   }
   .becomepartner-image{
-    min-height:  420px;
+    min-height:  520px;
     background-image: url('../assets/becomepartner.png');
     background-position: center;
     background-size: cover;
@@ -116,7 +116,7 @@ margin-bottom: 3rem;
     background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     overflow-y: scroll;
   }
   .modal form{
@@ -130,7 +130,7 @@ margin-bottom: 3rem;
   }
   .modal-content {
     background: white;
-    padding: 20px;
+    padding: 3rem;
     border-radius: 10px;
     width: 550px;
     padding-left: 3rem;

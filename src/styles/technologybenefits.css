@@ -12,7 +12,7 @@
 }
   
   .technologybenefits-left {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -21,7 +21,7 @@
   }
   
   .technologybenefits-right {
-    width: 50%;
+    width: 60%;
     
     
   }
@@ -42,10 +42,16 @@
     gap: 15px;
   }
   .technologybenefits-left{
+    width: 40%;
+  }
+  .technologybenefits-right .technologybenefits-left{
+    width: 50%;
+  }
+  .technologybenefits-right .technologybenefits-right{
     width: 50%;
   }
   .technologybenefits-right{
-    width: 50%;
+    width: 60%;
   }
   .technologyproduct-card-mobile{
     display: none !important;
@@ -54,6 +60,12 @@
   /* Responsive for mobile */
   @media (max-width: 768px) {
 
+    .technologybenefits-right .technologybenefits-left{
+      width: 100%;
+    }
+    .technologybenefits-right .technologybenefits-right{
+      width: 100%;
+    }
     .technologyproduct-card-mobile{
         display: block !important;
         margin-top: 0.5rem;
@@ -118,3 +130,6 @@
       }
   }
   
+  .myproductcard{
+    background: linear-gradient(45deg, #000000 40%, #1378CA 100%);
+  }

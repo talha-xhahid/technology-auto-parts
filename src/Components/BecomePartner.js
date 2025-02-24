@@ -146,7 +146,7 @@ const BecomePartner = () => {
             <form onSubmit={handleSubmit}>
               <input className="form-input" type="text" name="shopName" placeholder="Enter Shop Name" value={formData.shopName} onChange={handleChange} required />
               <input className="form-input" type="text" name="contactName" placeholder="Enter Contact Name" value={formData.contactName} onChange={handleChange} required />
-              <input className="form-input" type="email" name="email" placeholder="Enter Email (For Statements & Special Offers)" value={formData.email} onChange={handleChange} required />
+              <input className="form-input" type="email" name="email" placeholder="Enter Email " value={formData.email} onChange={handleChange} required />
               <input className="form-input" type="text" name="phone" placeholder="Enter Phone Number (For Orders & Payments)" value={formData.phone} onChange={handleChange} required />
               <input className="form-input" type="text" name="address" placeholder="Enter Delivery Address (For Orders)" value={formData.address} onChange={handleChange} required />
               <select className="form-input" name="salesTax" value={formData.salesTax} onChange={handleChange} required>
@@ -156,7 +156,7 @@ const BecomePartner = () => {
               </select>
               <div
       style={{
-        display: "flex",
+        display: "none",
         alignItems: "center",
         border: "1px solid #ccc",
         borderRadius: "8px",
@@ -207,8 +207,7 @@ const BecomePartner = () => {
               <button style={{borderRadius:'50px', display: 'flex', alignItems: 'center', justifyContent: 'center'}} type="submit">{isLoading ? <div className="spinner"></div> : "Submit"}</button>
             </form>
             <div style={{ marginTop:'0.5rem'}}>
-            <h5 style={{fontWeight:'700'  ,textAlign:'center'}}><span style={{color:'#1378CA'}}>1. Purchasing options </span>(Sales Rep Use only)</h5>
-            <h5 style={{fontWeight:'700' ,textAlign:'center'}}><span style={{color:'#1378CA'}}>2. Terms: </span>COD or Weekly (Sales Rep use only)</h5>
+            
             </div>
             
           </div>

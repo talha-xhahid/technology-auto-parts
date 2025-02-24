@@ -22,7 +22,7 @@ const Benefits= () => {
         </h4>
          <h1 style={{fontWeight:'bold' , fontSize:'2.5rem'}}>Committed to Quality, Service, and Reliability</h1>
          <p>Lorem ipsum dolor sit amet consectetur. Egestas nec massa at in pellentesque nibh mi lacus aliquet. Hac elementum nunc enim luctus. Nisl fermentum rhoncus et nibh dictum sit. Fringilla rhoncus massa mollis feugiat felis eu rhoncus odio. A blandit et fusce augue porttitor arcu in vitae ac. Scelerisque rhoncus laoreet turpis egestas id augue venenatis.</p>
-         <button className="contact-button" style={{width:'150px' ,height:'45px'}} onClick={() => window.open('https://partstech.com/', '_blank')}>
+         <button className="contact-button" style={{width:'150px' ,height:'45px'}} onClick={() => window.open('/OrderNow')}>
          Order Now
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
               </button>

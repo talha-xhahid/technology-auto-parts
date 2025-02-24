@@ -68,11 +68,11 @@ const WhatWeOffer = () => {
     <div
       id="featuredproducts"
       className="featureproduct mt-5 pb-5 "
-      style={{ height: "auto" }}
+      style={{ height: "auto" , backgroundColor:'white' }}
     >
-      <div className="featureproduct-inner pt-4">
-      <h4 className="mx-3" style={{ color: "#000000", textAlign: "center" }}>
-        <span className="highlight">Technology Auto Parts</span> 
+      <div className=" pt-4" style={{paddingTop:'3rem' , paddingBottom:'3rem'}}>
+      <h4 className="mx-3" style={{ color: "#000000", textAlign: "center" }}>Our | 
+        <span className="highlight">  Product Categories</span> 
         </h4>
      
 
@@ -101,7 +101,7 @@ const WhatWeOffer = () => {
                 fontWeight: "bolder"
               }}
             >
-              <h1 style={{fontWeight: "bolder" }}>What We Offer</h1>{" "}
+              <h1 style={{fontWeight: "bolder" }}>Our Specialized Categories</h1>{" "}
               <div className="button1"> </div>{" "}
             </div>
             <div className="button2"></div>

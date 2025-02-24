@@ -21,7 +21,7 @@ const TechnologyBenefits= () => {
         </h4>
          <h1 style={{fontWeight:'bold' , fontSize:'2.5rem'}}>Why Order from Technology Auto Parts?</h1>
          
-         <button className="contact-button" style={{width:'210px' ,height:'45px'}} onClick={() => window.open('https://partstech.com/', '_blank')}>
+         <button className="contact-button" style={{width:'210px' ,height:'45px'}} onClick={() => window.open('https://nexpart.com/login.php', '_blank')}>
          Browse Our Inventory
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
               </button>
@@ -43,12 +43,13 @@ const TechnologyBenefits= () => {
                     marginLeft: "10px",
                     marginRight: "10px",
                     overflow: "hidden",
-                    color:"#000000",
+                    color:"#ffffff",
                     flexDirection: "column",
                     textAlign: "left",
                     
+                    
                   }}
-                  className="product-card"
+                  className="myproductcard"
                 >
                   <div style={{ width: "100%", overflow: "hidden" }}>
                     <h1 style={{ textAlign: "right", fontWeight: "600" }}>
@@ -104,7 +105,7 @@ const TechnologyBenefits= () => {
                     height:'100%'
                     
                   }}
-                  className="product-card"
+                  className=""
                 >
                   <div style={{ width: "100%", overflow: "hidden" }}>
                     <h1 style={{ textAlign: "right", fontWeight: "600" }}>
@@ -161,7 +162,7 @@ const TechnologyBenefits= () => {
                     marginTop:'1rem'
                     
                   }}
-                  className="product-card technologyproduct-card-desktop"
+                  className=" technologyproduct-card-desktop"
                 >
                   <div style={{  overflow: "hidden" }}>
                     <h1 style={{ textAlign: "right", fontWeight: "600" }}>
@@ -218,7 +219,7 @@ const TechnologyBenefits= () => {
                     textAlign: "left",
                     
                   }}
-                  className="product-card technologyproduct-card-mobile"
+                  className=" technologyproduct-card-mobile"
                 >
                   <div style={{ width: "100%", overflow: "hidden" }}>
                     <h1 style={{ textAlign: "right", fontWeight: "600" }}>

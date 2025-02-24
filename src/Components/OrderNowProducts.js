@@ -72,12 +72,12 @@ const OrderNowProducts = () => {
       className="featureproduct mt-5 pb-5 "
       style={{ height: "auto" }}
     >
-      <div className="featureproduct-inner pt-4">
+      <div className=" pt-4" style={{paddingTop:'3rem' , paddingBottom:'3rem'}}>
         <h4
           className="mx-3"
           style={{ color: "#000000", textAlign: "center", marginLeft: "10px" }}
         >
-          Our | <span className="highlight">Featured Product Categories</span>
+          Our | <span className="highlight">Product Categories</span>
         </h4>
 
         <div
@@ -96,7 +96,7 @@ const OrderNowProducts = () => {
             style={{ textAlign: "center", width: "100%" }}
           >
             <div className="explore-heading">
-              <h1 style={{ textAlign: "center", width: "100%" }} className="explore-title">Explore Our Product Categories</h1>
+              <h1 style={{ textAlign: "center", width: "100%" , fontWeight:'bolder' }} className="explore-title">Our Specialized Categories</h1>
               
             </div>
 
@@ -170,7 +170,7 @@ const OrderNowProducts = () => {
           </Slider>
         </div>
         <button style={{margin:'auto', marginTop:'2rem'}} className="featurecontact-button" onClick={() => window.open('https://nexpart.com/login.php', '_blank')}>
-                Start Ordering{" "}
+                Explore Now{" "}
                 <img src={arrow} alt="Arrow" width="10" height="12" />
         </button>
       </div>

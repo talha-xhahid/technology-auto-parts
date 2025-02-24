@@ -77,7 +77,7 @@ const FeatureProducts = () => {
           className="mx-3"
           style={{ color: "#000000", textAlign: "left", marginLeft: "10px" }}
         >
-          Our | <span className="highlight">Featured Product Categories</span>
+          Our | <span className="highlight"> Product Categories</span>
         </h4>
 
         <div

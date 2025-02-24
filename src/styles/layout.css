@@ -100,7 +100,8 @@
   .navbar-menu {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: end;
+    margin-right: 10rem;
   }
   
   .navbar-menu ul {
@@ -170,6 +171,8 @@
       width: 100%;
       text-align: left;
       padding: 10px 0;
+      justify-content: center;
+      margin-right: 0px;
     }
 
     .navbar-menu ul li a {
