@@ -3,7 +3,7 @@
     margin-top: 2rem;
     margin-bottom: 1rem;
     justify-content: space-between;
-    gap: 20px;
+    gap: 100px;
     
   }
   
@@ -12,6 +12,8 @@
     background-position: bottom right;
     background-size: 30%;
     background-repeat: no-repeat;
+    padding: 4.5rem !important;
+    padding-bottom: 2rem !important;
     padding-top: 0px !important;
     margin-top: -5rem;
   }
@@ -41,9 +43,11 @@
     .aboutTexas{
       padding-top: 0px !important;
       background-size: 80%;
+      padding: 2rem !important;
     }
     .abouttexas-container {
       flex-direction: column;
+      gap: 20px;
     }
   
     .abouttexas-left, 

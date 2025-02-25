@@ -5,11 +5,12 @@ import b1 from '../assets/v1.png';
 import b2 from '../assets/v2.png';
 import b3 from '../assets/v3.png';
 import b4 from '../assets/v4.png';
+import { useNavigate } from 'react-router-dom';
 
 
 
 const Benefits= () => {
-
+const navigate = useNavigate();
 
     return(
 
@@ -21,8 +22,8 @@ const Benefits= () => {
         Why Choose | <span className="highlight">Technology Auto Parts</span> 
         </h4>
          <h1 style={{fontWeight:'bold' , fontSize:'2.5rem'}}>Committed to Quality, Service, and Reliability</h1>
-         <p>Lorem ipsum dolor sit amet consectetur. Egestas nec massa at in pellentesque nibh mi lacus aliquet. Hac elementum nunc enim luctus. Nisl fermentum rhoncus et nibh dictum sit. Fringilla rhoncus massa mollis feugiat felis eu rhoncus odio. A blandit et fusce augue porttitor arcu in vitae ac. Scelerisque rhoncus laoreet turpis egestas id augue venenatis.</p>
-         <button className="contact-button" style={{width:'150px' ,height:'45px'}} onClick={() => window.open('/OrderNow')}>
+         <p>At Technology Auto Parts, we specialize in providing top-quality under-the-hood components for repair shops and mobile mechanics across USA. With a commitment to excellence, we offer a wide range of electrical, suspension, cooling parts, and automotive lubricants tailored to meet the demands of professionals.</p>
+         <button className="contact-button" style={{width:'150px' ,height:'45px'}} onClick={() => navigate('/OrderNow')}>
          Order Now
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
               </button>

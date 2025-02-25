@@ -1,14 +1,11 @@
 .contactus{
-
     background-color: white;
-    
     padding: 2rem;
     text-align: left;
-    margin-top: 20px;
+    margin-top: -50px;
     margin-bottom: 20px;
     padding-right: 0px;
-    overflow-x: hidden;
-    
+    overflow-x: hidden; 
 }
 .popup {
     position: fixed;
@@ -118,7 +115,7 @@
 
 .contactus-bg{
     background-image: url(../assets/benefits-arrow.png);
-    background-size: contain;
+    background-size: cover;
 }
 .location{
     background-color: #F3F8FC;

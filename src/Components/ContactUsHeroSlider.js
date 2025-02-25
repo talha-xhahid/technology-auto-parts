@@ -10,7 +10,7 @@ const ContactUsHeroSlider = () => {
   const [activeIndex, setActiveIndex] = useState(0); // State to track active slide
 
   const settings = {
-    dots: true,
+   
     infinite: true,
     speed: 1000,
     slidesToShow: 1,
@@ -20,10 +20,7 @@ const ContactUsHeroSlider = () => {
     fade: true,
     arrows: false,
     beforeChange: (oldIndex, newIndex) => setActiveIndex(newIndex), // Update active index
-    customPaging: (i) => (
-      <div className={`custom-dot ${i === activeIndex ? "active" : ""}`}></div>
-    ),
-    dotsClass: "slick-dots custom-dots",
+    
   };
   const sayhello = () => {
     alert('hello how are you');

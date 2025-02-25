@@ -57,7 +57,7 @@ const ContactUsForm = () => {
     };
 
     return (
-        <div className="contactus">
+        <div className="contactus" id="Contact">
             <div className="row">
                 <div className="col-12 col-md-8">
                     <h4 style={{ color: "#1378CA", marginBottom: "1rem" }}>Contact Us</h4>
@@ -152,7 +152,7 @@ const ContactUsForm = () => {
                                     <span className="highlight"> Technology Auto Parts</span>
                                 </p>
                                 <p style={{ color: "grey", fontSize: "0.8rem" }}>
-                                83101 Technology Drive STE 101, Plano, TX 75074, United States
+                                3101 Technology Drive STE 101, Plano, TX 75074, United States
                                 </p>
                                 
                             </div>

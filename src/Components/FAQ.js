@@ -13,7 +13,7 @@ const FAQ = () => {
   const [selectedQuestion, setSelectedQuestion] = useState(
     "Who Can Order From Technology Auto Parts?"
   );
-  const value = location.pathname === "/Robotics-AboutUs";
+  const value = location.pathname === "/Contact";
 
   // Questions and answers data
   const faqData = [
@@ -86,7 +86,7 @@ const FAQ = () => {
         <h3 className="cta-contact">Contact  <span className="cta-highlight"> Support</span></h3>
         <h1 className="cta-heading">Need Help with Your Order?</h1>
         <p>Our support team is here to assist you.</p>
-        <button className="cta-button" onClick={() => navigate('/Contact')}>
+        <button className="cta-button" onClick={() => value?handleScroll():navigate('/Contact')}>
             Contact Us
             <img src={arrow} alt="Order Arrow" className="arrow-icon" />
           </button>
@@ -94,5 +94,10 @@ const FAQ = () => {
     </div>
   );
 };
-
+const handleScroll = () => {
+  const missionElement = document.getElementById('Contact');
+  if (missionElement) {
+    missionElement.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 export default FAQ;
